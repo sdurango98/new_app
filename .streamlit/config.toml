@@ -1,0 +1,8 @@
+[server]
+headless = true
+port = 10000
+
+[browser]
+serverAddress = "0.0.0.0"
+serverPort = 10000[A[A[A[A[A[A[A[A[A[A[A[A[B[B[B[B[B[C
+[B[B[B[B[B[B[B[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
