@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import pandas as pd
 import scipy.stats
 import streamlit as st
@@ -14,7 +13,7 @@ if 'df_experiment_results' not in st.session_state:
 import scipy.stats
 import streamlit as st
 import time
->>>>>>> ad31fab94f957994ef138af4abe33224e5e27012
+
 
 st.header('Lanzar una moneda')
 
@@ -43,7 +42,7 @@ start_button = st.button('Ejecutar')
 
 if start_button:
     st.write(f'Experimento con {number_of_trials} intentos en curso.')
-<<<<<<< HEAD
+
     st.session_state['experiment_no'] += 1
     mean = toss_coin(number_of_trials)
     st.session_state['df_experiment_results'] = pd.concat([
@@ -60,4 +59,4 @@ if start_button:
 st.write(st.session_state['df_experiment_results'])
 =======
     mean = toss_coin(number_of_trials)
->>>>>>> ad31fab94f957994ef138af4abe33224e5e27012
+
