@@ -9,7 +9,7 @@ if 'experiment_no' not in st.session_state:
 
 if 'df_experiment_results' not in st.session_state:
     st.session_state['df_experiment_results'] = pd.DataFrame(columns=['no', 'iteraciones', 'media'])
-=======
+
 import scipy.stats
 import streamlit as st
 import time
