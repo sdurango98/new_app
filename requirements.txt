@@ -1,7 +1,5 @@
 pandas
 scipy
-<<<<<<< HEAD
 streamlit
-=======
-streamlit
->>>>>>> ad31fab94f957994ef138af4abe33224e5e27012
+
+
